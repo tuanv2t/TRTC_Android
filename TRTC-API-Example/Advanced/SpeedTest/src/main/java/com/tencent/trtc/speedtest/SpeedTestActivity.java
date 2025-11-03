@@ -47,6 +47,7 @@ public class SpeedTestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.speedtest_activity);
+        setContentView(R.layout.speedtest_activity);
         initView();
     }
 

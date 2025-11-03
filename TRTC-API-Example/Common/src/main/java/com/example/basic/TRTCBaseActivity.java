@@ -68,7 +68,8 @@ public abstract class TRTCBaseActivity extends AppCompatActivity {
                     ToolKitService.startToolKitService(this);
                     onPermissionGranted();
                 } else {
-                    Toast.makeText(this, getString(R.string.common_please_input_roomid_and_userid), Toast.LENGTH_SHORT)
+                   // Toast.makeText(this, getString(R.string.common_please_input_roomid_and_userid), Toast.LENGTH_SHORT)
+                    Toast.makeText(this, "Please input room id and user id", Toast.LENGTH_SHORT)
                             .show();
                 }
                 mGrantedCount = 0;

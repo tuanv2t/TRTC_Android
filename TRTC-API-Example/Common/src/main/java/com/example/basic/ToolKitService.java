@@ -88,7 +88,8 @@ public class ToolKitService extends Service {
         builder.setTicker("Nature");
         builder.setSmallIcon(getApplicationContext().getApplicationInfo().icon);
         builder.setContentTitle(getString(getApplicationContext().getApplicationInfo().labelRes));
-        builder.setContentText(getString(R.string.app_running));
+        //builder.setContentText(getString(R.string.app_running));
+        builder.setContentText("Running tuan");
         builder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
         builder.setOngoing(true);
 
